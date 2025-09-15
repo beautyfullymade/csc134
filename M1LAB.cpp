@@ -11,21 +11,22 @@
 using namespace std;
 
 int main() {
-    // Salesperson information
-    string salespersonName = "Jane Smith";
-    string productName = "Apples";  // <-- You can change this (e.g., "Pears")
-    int numberOfItems = 100;        // <-- Change if needed
-    double pricePerItem = 0.25;     // <-- Change if needed
+    // This program will simulate an apple orchard.
+    // The owner's name
+    string name = "Toni Bethune";
+    // number of apples owned
+    int apples = 100;
+    // price per apple
+    double pricePerApple = 0.25;
 
-    // Calculate total cost
-    double totalCost = numberOfItems * pricePerItem;
+    // calculate the total price of the apples
+    double totalPrice = apples * pricePerApple;
 
-    // Display results
-    cout << "Salesperson: " << salespersonName << endl;
-    cout << "Product: " << productName << endl;
-    cout << "Number of " << productName << ": " << numberOfItems << endl;
-    cout << "Price per " << productName.substr(0, productName.size()-1) << ": $" << pricePerItem << endl;
-    cout << "Total cost for all " << productName << ": $" << totalCost << endl;
+    // print all the information about the orchard
+    cout << "Welcome to " << name << "'s apple orchard." << endl;
+    cout << "We have " << apples << " apples in stock" << endl;
+    cout << "Apples are currently $" << pricePerApple << " each." << endl;
+    cout << "If you want them all, that will be $" << totalPrice << endl;
 
     return 0;
 }
