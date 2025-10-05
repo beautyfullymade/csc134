@@ -3,5 +3,13 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "M3LAB1_Bethune",
+            "request": "launch",
+            "mainClass": "M3LAB1_Bethune",
+            "projectName": "csc134_c3e727e1"
+        }
+    ]
 }
