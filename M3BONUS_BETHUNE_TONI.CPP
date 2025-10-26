@@ -1,5 +1,5 @@
 // CSC 134
-// M3 - AI Assisted Development (Craps Game)
+// M3 -  Craps Game
 // Name: Toni Bethune
 // Date: 10/26/2025
 //
