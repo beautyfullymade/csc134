@@ -5,8 +5,8 @@ using namespace std;
 /*
  CSC 134
  M5LAB1 - Choose Your Own Adventure
- Your Name
- Date
+ Toni Bethune
+ 11/10/2025
 */
 
 // ======= Prototypes =======
